@@ -45,18 +45,23 @@ $("#c6").click(function() {
         700);
 });
 
-//Ocultar con FadeOut
+//Ocultar/mostrar con fadeToggle
 $("#c7").click(function() {
     $("#caja").fadeToggle(700);
 });
 
-//Mostrar con FadeIn
+//Ocultar con FadeOut
 $("#c8").click(function() {
+    $("#caja").fadeOut(700);
+});
+
+//Mostrar con FadeIn
+$("#c9").click(function() {
     $("#caja").fadeIn(700);
 });
 
 //Cambiar estilo color amarillo
-$("#c9").click(function() {
+$("#c10").click(function() {
     $("#caja").css({
         'border': '3px solid #FEFF00',
         'color': '#FEFF00',
@@ -65,7 +70,7 @@ $("#c9").click(function() {
 });
 
 //Cambiar estilo color verde
-$("#c10").click(function() {
+$("#c11").click(function() {
     $("#caja").css({
         'border': '3px solid #47FB2D',
         'color': '#47FB2D',
@@ -74,14 +79,14 @@ $("#c10").click(function() {
 });
 
 //Cambiar tamaño
-$("#c11").click(function() {
+$("#c12").click(function() {
     $("section").animate({
             'max-width': '200px'
         },
         700);
 });
 //Cambiar tamaño
-$("#c12").click(function() {
+$("#c13").click(function() {
     $("section").animate({
             'max-width': '400px',
         },
