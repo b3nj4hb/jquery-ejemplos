@@ -95,5 +95,5 @@ $("#c13").click(function() {
 
 //Ocultar
 $("#caja").click(function() {
-    $(this).hide().delay(700).show(700);
+    $(this).hide(700).delay(700).show(700);
 });
